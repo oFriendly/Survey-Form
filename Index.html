@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css">
   <title>Survey Form</title>
 </head>
 <body>
@@ -27,18 +26,16 @@
     </select>
     <!-- RECOMMEND -->
     <label name="recommend">How likeley are you to reccommend this service?</label>
-    <input type="radio" value="yes" name="recommend">likeley</input>
-    <input type="radio" value="maybe" name="recommend">maybe</input>
-    <input type="radio" value="no" name="recommend">unlikely</input>
+    <label for="yes">Likeley</label>
+    <input id="yes" type="radio" value="yes" name="recommend"></input>
+    <label for="maybe">maybe</label>
+    <input type="radio" value="maybe" name="recommend"></input>
+    <label for="no">Unlikely</label>
+    <input type="radio" value="no" name="recommend"></input>
     <input type="checkbox" value="1"></input>
     <input type="checkbox" value="2"></input>
     <textarea placeholder="bob"></textarea>
     <button id="submit"></button>
-    <!--  -->
-
-    <!--  -->
-
-    <!--  -->
   </form>
 </body>
 </html>
