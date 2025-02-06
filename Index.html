@@ -1,0 +1,44 @@
+
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out the following information</p>
+  <form id="survey-form">
+    <!-- NAME -->
+    <label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" placeholder="John Doe" required>
+    <!-- EMAIL -->
+    <label id="email-label">Email:</label>
+    <input id="email" type="email" placeholder="JohnDoeMail@domain.com" required>
+    <!-- AGE -->
+    <label id="number-label">Age (optional):</label>
+    <input id="number" type="number" min="13" max="120" placeholder="Age">
+    <!-- DROPDOWN -->
+    <label for="dropdown">Which option describes you the best?</label>
+    <select id="dropdown">
+      <option value="cat">Cat person</option>
+      <option value="dog">Dog person</option>
+    </select>
+    <!-- RECOMMEND -->
+    <label name="recommend">How likeley are you to reccommend this service?</label>
+    <input type="radio" value="yes" name="recommend">likeley</input>
+    <input type="radio" value="maybe" name="recommend">maybe</input>
+    <input type="radio" value="no" name="recommend">unlikely</input>
+    <input type="checkbox" value="1"></input>
+    <input type="checkbox" value="2"></input>
+    <textarea placeholder="bob"></textarea>
+    <button id="submit"></button>
+    <!--  -->
+
+    <!--  -->
+
+    <!--  -->
+  </form>
+</body>
+</html>
